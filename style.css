@@ -1,0 +1,235 @@
+body{
+    margin: 0px;
+    padding: 0px 40px;
+    background-color:beige;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 10px;
+    margin-left: 37%;
+    font-size: 50px;
+    float: both;
+    color: silver;
+    text-shadow: 0px 0px 10px black;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 39%;
+}
+
+#navigasjon a{
+    text-decoration: none;
+    box-shadow: 0px 0px 5px black;
+}
+
+#navigasjon{
+    border-bottom: 5px solid;
+    background-color: red;
+    width: 110%;
+    top: 0px;
+    position: sticky;
+    font-family: monospace;
+    font-weight: bold;
+    margin: -40px -40px 20px -40px;
+}
+
+#navigasjon ul li::marker {
+    content: none;
+}
+
+#bilderLink{
+    font-size: 30px;
+    position: absolute;
+    right: 9%;
+    background: gold;
+}
+#bilderLink:hover{
+    box-shadow: 0px 0px 30px maroon, 0px 0px 30px maroon, 0px 0px 30px maroon;
+    background: silver;
+}
+#quizLink{
+    font-size: 30px;
+    width: 72.5px;
+    background: gold;
+}
+
+#quizLink:hover {
+    box-shadow: 0px 0px 30px maroon, 0px 0px 30px maroon, 0px 0px 30px maroon;
+    background: silver;
+}
+
+ul li::marker{
+    color: red;
+}
+
+#omMarve{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+iframe{
+    margin-left: 20%;
+}
+
+fieldset{
+    margin-left:20%;
+    width: 60%;
+    padding: 70px;
+    border: 5px solid;
+}
+
+footer a{
+    margin-left: 47%;
+}
+footer p{
+    margin-left: 43%;
+}
+footer{
+    color:coral;
+}
+
+caption, tr, th, td{
+    border: 1px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+table{
+    float: left;
+}
+
+legend{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+#adresse{
+    float: left;
+}
+address{
+    position: static;
+    margin-left: 90px;
+    margin-top: 21px;
+}
+video{
+    margin-left: 10%;
+}
+
+#quizDel{
+    margin-left: 10%;
+    padding: 10px;
+    width: 80%;
+    border: 15px solid;
+    border-color: gold;
+    border-radius: 10px;
+}
+
+#quizBilde{
+    float: right;
+    text-shadow: 0px 0px 10px red;
+}
+#quizBilde img{
+    box-shadow: 0px 0px 10px red;
+}
+
+.link:visited, .link:link {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.link:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+#marve {
+    font-size: 40px;
+}
+
+@keyframes marveJakter {
+    0% {margin-left: 100%;}
+    100% {margin-left: -10%;};
+}
+
+#jakt {
+    text-shadow: 7px 0px 7px black;
+    animation: 8s linear 0s infinite running marveJakter
+}
+
+#jakt:hover {
+    animation: 8s linear 0s infinite paused marveJakter;
+    text-shadow: none;
+}
+
+legend {
+    color: silver;
+    text-shadow: 0px 0px 3px black, 0px -3px 3px blue, 0px 3px 3px red;
+    font-size: 3rem;
+}
+
+fieldset {
+    background-color: papayawhip;
+    padding: 1rem auto;
+    border-width: 40px;
+    border-style: outset;
+    border-color: gold;
+    border-radius: 40px;
+    margin: 1rem auto;
+    width: 45rem;
+}
+fieldset:hover {
+    border-style: inset;
+    background: #ffffe4;
+}
+label, button{
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+#konsj {
+    float: left;
+}
+button {
+    width: 8rem;
+    margin-left: 4.5rem;
+    font-size: 1.8rem;
+    border-radius: 30px;
+    background: gold;
+}
+
+button:hover {
+    background: red;
+}
+.beskjed {
+    margin-left: 8rem;
+}
+
+table th, td {
+    font-family:'Courier New', Courier, monospace
+}
+
+input {
+    height: 1.2rem;
+    border: black solid 3px;
+    border-radius: 3px;
+}
+textarea {
+    border: black solid 3px;
+    border-radius: 3px;
+}
+
+#bh1 {
+    margin-top: 40px;
+    margin-left: 30%;
+}
+#hh1 {
+    margin-top: 40px;
+    margin-left: 36%;
+}
+
+#quiz {
+    width: 80%;
+    margin: 5px auto;
+}
